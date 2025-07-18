@@ -123,7 +123,6 @@ if uploaded_file:
 
     with st.spinner("Assessing Damage"):
         output = asses_damage(original_image_path, restored_image_path)
-    st.write(output)
-       
+    st.write(output) 
 
 
